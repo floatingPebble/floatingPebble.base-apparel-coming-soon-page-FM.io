@@ -220,9 +220,9 @@ h6 {
 
     .tagline {
         font-size: 4.3vw;
-        line-height: 4.9vw;
+        line-height: 4.98vw;
         letter-spacing: 1.2vw;
-        margin-top: 8vw;
+        margin-top: 7vw;
     }
 
     .details,
@@ -232,7 +232,7 @@ h6 {
     }
 
     .details {
-        margin-block: 1.8vw 2.9vw;
+        margin-block: 1.5vw 2.9vw;
         line-height: 1.74rem;
     }
 
