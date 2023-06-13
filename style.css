@@ -208,7 +208,7 @@ h6 {
     .logo {
         max-width: 9.4rem;
         position: absolute;
-        top: clamp(3%, 9%, 10%);
+        top: clamp(3%, 8%, 10%);
         left: clamp(3%, 12%, 13%);
         margin: 0;
     }
@@ -222,6 +222,7 @@ h6 {
         font-size: 4.3vw;
         line-height: 4.9vw;
         letter-spacing: 1.2vw;
+        margin-top: 8vw;
     }
 
     .details,
@@ -231,7 +232,7 @@ h6 {
     }
 
     .details {
-        margin-block: 1.3vw 2.9vw;
+        margin-block: 1.8vw 2.9vw;
         line-height: 1.74rem;
     }
 
