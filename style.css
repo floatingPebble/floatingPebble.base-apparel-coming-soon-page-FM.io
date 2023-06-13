@@ -138,7 +138,7 @@ h6 {
     width: 100%;
     border: 1px solid var(--INPUT-BORDER-COLOR);
     padding-block: 0.68rem;
-    background-color: var(--BG-RED-COLOR);
+    background-color: transparent;
     border-radius: 50rem;
     padding-left: 1.3rem;
     color: var(--DARK-GRAYISH-RED);
@@ -195,14 +195,17 @@ h6 {
     display: none;
 }
 
-@media screen and (min-width: 913px) {
+@media screen and (min-width: 1012px) {
     body {
         padding: 0;
         height: 100%;
+
     }
 
     .main-container {
         position: relative;
+        background: url(images/bg-pattern-desktop.svg) left top no-repeat;
+        background-size: 65% 100%;
     }
 
     .logo {
@@ -232,7 +235,7 @@ h6 {
     }
 
     .details {
-        margin-block: 1.3vw 2.9vw;
+        margin-block: 1.1vw 2.9vw;
         line-height: 1.74rem;
     }
 
