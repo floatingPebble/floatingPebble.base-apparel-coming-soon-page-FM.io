@@ -83,6 +83,7 @@ h6 {
     --BG-RED-COLOR: hsl(0, 100%, 98%);
     --INPUT-BORDER-COLOR: hsla(0, 26%, 66%, 0.5);
     --BOX-SHADOW-COLOR: rgba(185, 130, 130, 0.25);
+    --BOX-SHADOW-COLOR-DARK: rgba(179, 113, 113, 0.5);
     /*Gradient colors in style-guide.md*/
     font-family: 'Josefin Sans', sans-serif;
     font-size: 16px;
@@ -171,6 +172,7 @@ h6 {
 .submit-btn:hover {
     background: linear-gradient(to right, hsl(0, 71%, 90%), hsl(0, 64%, 84%));
     cursor: pointer;
+    box-shadow: 0 0.7rem 1rem 1px var(--BOX-SHADOW-COLOR-DARK);
 }
 
 .error-icon {
